@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
      
-      <main>
+      <main >
         <PortfolioContainer></PortfolioContainer>
         
       </main>

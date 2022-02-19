@@ -3,10 +3,11 @@ import React from "react";
 
 function Nav({ currentPage, handlePageChange }){
     return(
-   <header>
+   <header id="nav" >
+   
    <h1 id='about'>Hello I am Abeer!</h1>
-  
   <ul className="nav justify-content-end">
+  
   <li className="nav-item">
     <a className="nav-link" href="#about" onClick={()=>handlePageChange('About')} className={currentPage=== 'About'?'nave-link active':'nav-link'}>About Me </a>
   </li>

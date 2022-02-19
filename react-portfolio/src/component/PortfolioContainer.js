@@ -5,6 +5,8 @@ import Contact from './pages/Contact';
 //import Project from './pages/Project';
 import ProjectList from './pages/ProjectList';
 import Resume from './pages/Resume';
+import {SocialIcon} from 'react-social-icons';
+
 
 function PortfolioContainer(){
     const [currentPage,setCurrentPage]=useState('About');
@@ -28,7 +30,11 @@ return (
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-     <footer><h6>Copyright &copy; 2022, Abeer Tannous</h6></footer> 
+     <footer>
+     <SocialIcon url="https://github.com/AbeerTannous/MyPortfolion"/>
+     <SocialIcon url="https://slack.com/"/>
+
+     </footer> 
     </div>
   );
 

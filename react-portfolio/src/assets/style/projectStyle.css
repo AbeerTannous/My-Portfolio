@@ -32,10 +32,15 @@
   }
   
   .text {
-    background-color: #04AA6D;
+    background-color: #eff8f5;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+    
   }
+a{
+  text-decoration: none;
+}
+  
 
   

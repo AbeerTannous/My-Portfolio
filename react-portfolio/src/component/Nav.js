@@ -3,7 +3,10 @@ import React from "react";
 
 function Nav({ currentPage, handlePageChange }){
     return(
-   <header id="nav" >
+   <header id="nav"  style={{
+    background:'#D9AE94'
+    
+  }} >
    
    <h1 id='about'>Hello I am Abeer!</h1>
   <ul className="nav justify-content-end">

@@ -5,7 +5,10 @@ function App() {
   return (
     <div>
      
-      <main >
+      <main style={{
+        background:'#F1DCA7'
+        
+      }}>
         <PortfolioContainer></PortfolioContainer>
         
       </main>

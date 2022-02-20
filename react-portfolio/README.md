@@ -15,6 +15,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 # Deployed application URL
 
+ https://abeertannous.github.io/React-Portfolio/
 
 # Technologies
 

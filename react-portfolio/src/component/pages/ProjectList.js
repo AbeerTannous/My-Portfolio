@@ -49,9 +49,7 @@ const ProjectList = () => {
          <div class="row gy-5" >
          {projects.map((project, i) => (<section class="col-6"  >
             <div class="col-8">
-             <div class="p-3 border "  >
-            
-                   
+             <div class="p-3 border ">
                    <div class="piccontainer" >                 
                    <img src={project.screenshot} 
                         alt={project.name}

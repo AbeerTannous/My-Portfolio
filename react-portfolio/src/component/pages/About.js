@@ -17,10 +17,6 @@ I love to read and learn!.
   
 </p></div>
 
-        
-
-            
-
         </section>
     );
 }

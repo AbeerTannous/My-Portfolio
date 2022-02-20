@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import Nav from './Nav';
 import About from './pages/About'
 import Contact from './pages/Contact';
-//import Project from './pages/Project';
 import ProjectList from './pages/ProjectList';
 import Resume from './pages/Resume';
 import {SocialIcon} from 'react-social-icons';

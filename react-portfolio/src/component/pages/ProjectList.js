@@ -58,7 +58,7 @@ const ProjectList = () => {
                          key={project.name}
                           class="img-fluid" class="image" style={{width:"400%"}} ></img>
                        <div class="middle" >
-                             <div class="text"><a style={{textDecoration:"none",color:"black"}} href={project.live}>{project.name}</a><a href={project.github}><SocialIcon url={project.github}/></a></div>
+                             <div class="text"><a style={{textDecoration:"none",color:"black",marginRight:"5%"}} href={project.live}>{project.name}</a><a href={project.github}><SocialIcon url={project.github}/></a></div>
                         </div>
                     </div>
                     </div>

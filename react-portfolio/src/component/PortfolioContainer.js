@@ -30,9 +30,9 @@ return (
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-     <footer  style={{background:'#FFCB69', marginTop:"17%"}} >
+     <footer  style={{background:'#FFCB69', marginTop:"30%"}} >
     
-     <SocialIcon url="https://github.com/AbeerTannous/MyPortfolion" style={{marginLeft:"45%"}}/>
+     <SocialIcon url="https://github.com/AbeerTannous" style={{marginLeft:"45%"}}/>
      <SocialIcon url="https://slack.com/"/>
 
      </footer> 

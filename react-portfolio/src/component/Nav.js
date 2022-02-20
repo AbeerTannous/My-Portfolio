@@ -9,7 +9,7 @@ function Nav({ currentPage, handlePageChange }){
   }} >
    
    <h1 id='about'>Hello I am Abeer!</h1>
-  <ul className="nav justify-content-end">
+  <ul className="nav justify-content-end" style={{marginRight:"5%"}}>
   
   <li className="nav-item">
     <a style={{textDecoration:"none",color:"black",fontSize:"20px"}} className="nav-link" href="#about" onClick={()=>handlePageChange('About')} className={currentPage=== 'About'?'nave-link active':'nav-link'}>About Me </a>

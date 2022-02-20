@@ -71,7 +71,9 @@ function Contact(){
         //   </form>
          
         //</div>
+        
         <div style={{margin:"5%",width:"50%"}}>
+          <h2>Contact Me</h2>
         <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name</label>
         <input

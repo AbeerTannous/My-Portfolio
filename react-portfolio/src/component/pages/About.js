@@ -4,7 +4,10 @@ import myPicture from "../../assets/images/me1.jpg"
 function About(){
     return(
         <section className='my-5'>
-            <div class="container-sm"  style={{margin:"10%"}} > <img src={myPicture} className='my-2' style={{width:"7%", borderRadius:"50%" }} alt='My Picture'></img>
+            
+            <div class="container-sm"  style={{margin:"10%"}} >
+            <h2 >About Me</h2>
+                 <img src={myPicture} className='my-2' style={{width:"7%", borderRadius:"50%" }} alt='My Picture'></img>
             <p style={{fontSize:"20px",fontFamily:"-moz-initial"}} >
 I am a positive, hardworking and likable personality. Aptitude to get up to speed quickly on the job,
 

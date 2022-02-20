@@ -22,14 +22,14 @@ const ProjectList = () => {
       screenshot:require('../../assets/images/tasklead.png') 
     },
     {
-      name: 'The-Pet-Project',
+      name: 'ThePetProject',
       live: 'https://jessvarghese.github.io/the_pet_project/',
       github:'https://github.com/JessVarghese/the_pet_project',
       description: '',
      screenshot: require('../../assets/images/the-pet-project.png') 
     },
     {
-      name: 'Futureproject - Copy',
+      name: 'Futureproject',
       live: '',
       github:'',
       description: '',
@@ -42,23 +42,23 @@ const ProjectList = () => {
 
   return (
     
-     <div id='div' >
+     <div id='div'  >
     <h2 style={{margin:"5%"}}>Portfolio</h2>
        <div class="container overflow-hidden" >
       
          <div class="row gy-5" >
-         {projects.map((project, i) => (<section>
-            <div class="col-4" id='row'>
-             <div class="p-3 border bg-light">
+         {projects.map((project, i) => (<section class="col-6"  >
+            <div class="col-8">
+             <div class="p-3 border "  >
             
                    
-                   <div class="piccontainer">                 
+                   <div class="piccontainer" >                 
                    <img src={project.screenshot} 
                         alt={project.name}
                          key={project.name}
                           class="img-fluid" class="image" style={{width:"400%"}} ></img>
-                       <div class="middle">
-                             <div class="text"><a href={project.live}>{project.name}</a><a href={project.github}><SocialIcon url={project.github}/></a></div>
+                       <div class="middle" >
+                             <div class="text"><a style={{textDecoration:"none",color:"black"}} href={project.live}>{project.name}</a><a href={project.github}><SocialIcon url={project.github}/></a></div>
                         </div>
                     </div>
                     </div>

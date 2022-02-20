@@ -20,7 +20,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    text-align:left;
+    
   }
   
   .piccontainer:hover .image {
@@ -32,15 +33,12 @@
   }
   
   .text {
-    background-color: #eff8f5;
-    color: white;
-    font-size: 16px;
+    
+    
+    font-size: 20px;
     padding: 16px 32px;
     
   }
-a{
-  text-decoration: none;
-}
-  
+
 
   

@@ -8,7 +8,7 @@ function Resume(){
     return(
         <section style={{margin:"5%"}}>
          <h2>Resume</h2>
-         <h4>Download my <a href="https://docs.google.com/document/d/1WyNA3f_xl2Z_3Iy-ab1noeEsPAgcC3EKLv02R5uNyR4/edit?usp=sharing">Resume</a></h4>
+         <h4>Download my <a href="https://docs.google.com/document/d/17ksYnMl05ODjbLmrre4tTrCT4slampNemTOF28qxnSo/edit?usp=sharing">Resume</a></h4>
          <h3>Front-End Proficiencies</h3>
          <ul>
           <li>HTML</li>

@@ -33,6 +33,7 @@ return (
     
      <SocialIcon url="https://github.com/AbeerTannous" style={{marginLeft:"45%"}}/>
      <SocialIcon url="https://slack.com/"/>
+     <SocialIcon url='https://www.linkedin.com/in/abeer-tannous-9a0713234/'/>
 
      </footer> 
     </div>

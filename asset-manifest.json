@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.28ad46d0.css",
-    "main.js": "/My-Portfolio/static/js/main.5d12c57f.js",
+    "main.js": "/My-Portfolio/static/js/main.708b1cc1.js",
     "static/js/787.a2cb61a6.chunk.js": "/My-Portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/_DSC4014 EDIT.jpg": "/My-Portfolio/static/media/_DSC4014 EDIT.d7665467ea764dcc5144.jpg",
     "static/media/book-search.png": "/My-Portfolio/static/media/book-search.733df0a4e5536609f371.png",
+    "static/media/myedit.jpg": "/My-Portfolio/static/media/myedit.1a60fa936ad6191a727b.jpg",
     "static/media/tasklead.png": "/My-Portfolio/static/media/tasklead.092a80f12f87bc100ada.png",
     "static/media/recipe.png": "/My-Portfolio/static/media/recipe.eb22f00053ca909b8f87.png",
     "static/media/the-pet-project.png": "/My-Portfolio/static/media/the-pet-project.8cda1ae184bfb3fa0e81.png",
@@ -12,11 +12,11 @@
     "static/media/Budget-Tracker.png": "/My-Portfolio/static/media/Budget-Tracker.65edfd3b2fca6198f0f4.png",
     "index.html": "/My-Portfolio/index.html",
     "main.28ad46d0.css.map": "/My-Portfolio/static/css/main.28ad46d0.css.map",
-    "main.5d12c57f.js.map": "/My-Portfolio/static/js/main.5d12c57f.js.map",
+    "main.708b1cc1.js.map": "/My-Portfolio/static/js/main.708b1cc1.js.map",
     "787.a2cb61a6.chunk.js.map": "/My-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28ad46d0.css",
-    "static/js/main.5d12c57f.js"
+    "static/js/main.708b1cc1.js"
   ]
 }

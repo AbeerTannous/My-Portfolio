@@ -4,6 +4,7 @@ import { validateEmail } from '../../utils/helpers';
 
 
 function Contact(){
+ 
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -36,11 +37,16 @@ function Contact(){
       console.log('Handle Form', formState);
     }
   };
-
+      
       return (
-       
+        
+     
         <div style={{margin:"5%",width:"50%"}}>
           <h2>Contact Me</h2>
+          <div >
+        <h5 style={{marginLeft:"1%",marginTop:"2%",width:"50%"}}>E: abeer.tannous23@gmail.com</h5>
+        <h5 style={{marginLeft:"1%",marginBottom:"2%",width:"50%"}}>P: (203)832-2389</h5>
+        
         <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name</label>
         <input
@@ -80,6 +86,7 @@ function Contact(){
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
+     </div>
      </div>
        );
 

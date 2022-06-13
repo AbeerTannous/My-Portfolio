@@ -97,6 +97,13 @@ const ProjectList = () => {
       screenshot:require('../../assets/images/tasklead.png') 
     },
     {
+      name: 'MyInventory',
+      live: 'https://glacial-beach-24640.herokuapp.com/',
+      github:'https://github.com/AbeerTannous/My-Inventory',
+      description: 'This is a sample of an Inventory Tracking System web application , the project uses Object-Relational-Mapping(ORM) to communicate with the database and Model-View-Controller(MVC) that dynamically generate user interface , the database follow the CRUD functionality and hooked using REST API architectural patterns.',
+      screenshot:require('../../assets/images/myInventory.png') 
+    },
+    {
       name: 'MyPet',
       live: 'https://jessvarghese.github.io/the_pet_project/',
       github:'https://github.com/JessVarghese/the_pet_project',
